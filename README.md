@@ -5,7 +5,7 @@ Sistema completo de detecção de fake news com frontend Angular e backend FastA
 ## Estrutura do Projeto
 
 ```
-JumpIA-Integrated/
+JumpIA/
 ├── frontend/          # Aplicação Angular
 │   ├── src/
 │   │   ├── app/
