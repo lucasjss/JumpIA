@@ -12,7 +12,7 @@ import { RouterModule } from '@angular/router';
         <p class="text-xl text-gray-600 mb-8">Experimente gratuitamente nossa tecnologia</p>
         <button
           routerLink="/agent"
-          class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-12 py-5 rounded-lg text-xl font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300"
+          class="bg-gradient-to-r from-amber-600 to-orange-700 text-white px-12 py-5 rounded-lg text-xl font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300"
         >
           Testar Agora
         </button>

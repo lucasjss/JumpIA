@@ -15,13 +15,11 @@ import { RouterModule } from '@angular/router';
         <div class="flex justify-between items-center h-16">
           <!-- Logo -->
           <div class="flex items-center space-x-2 cursor-pointer" routerLink="/">
-            <div
-              class="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center"
-            >
-              <span class="text-white font-bold text-xl">J</span>
+            <div class="w-10 h-10 rounded-lg flex items-center justify-center">
+              <img src="/favicon.ico" alt="" />
             </div>
             <span
-              class="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
+              class="text-xl font-bold bg-gradient-to-r from-amber-600 to-orange-700 bg-clip-text text-transparent"
             >
               Jump IA
             </span>
@@ -31,25 +29,25 @@ import { RouterModule } from '@angular/router';
           <div class="hidden md:flex items-center space-x-8">
             <a
               (click)="scrollToSection('hero')"
-              class="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer font-medium"
+              class="text-gray-700 hover:text-amber-600 transition-colors cursor-pointer font-medium"
             >
               Início
             </a>
             <a
               (click)="scrollToSection('mission')"
-              class="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer font-medium"
+              class="text-gray-700 hover:text-amber-600 transition-colors cursor-pointer font-medium"
             >
               Missão
             </a>
             <a
               (click)="scrollToSection('how-it-works')"
-              class="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer font-medium"
+              class="text-gray-700 hover:text-amber-600 transition-colors cursor-pointer font-medium"
             >
               Como Funciona
             </a>
             <a
               (click)="scrollToSection('features')"
-              class="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer font-medium"
+              class="text-gray-700 hover:text-amber-600 transition-colors cursor-pointer font-medium"
             >
               Recursos
             </a>
@@ -58,7 +56,7 @@ import { RouterModule } from '@angular/router';
           <!-- CTA Button -->
           <button
             routerLink="/agent"
-            class="hidden md:block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2.5 rounded-lg font-semibold hover:shadow-lg transition-all duration-200"
+            class="hidden md:block bg-gradient-to-r from-amber-600 to-orange-700 text-white px-6 py-2.5 rounded-lg font-semibold hover:shadow-lg transition-all duration-200"
           >
             Testar Agora
           </button>
@@ -108,7 +106,7 @@ import { RouterModule } from '@angular/router';
             </a>
             <button
               routerLink="/agent"
-              class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2.5 rounded-lg font-semibold text-center"
+              class="bg-gradient-to-r from-amber-600 to-orange-700 text-white px-6 py-2.5 rounded-lg font-semibold text-center"
             >
               Testar Agora
             </button>

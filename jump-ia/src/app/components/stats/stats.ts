@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-stats',
   standalone: true,
   template: `
-    <section class="py-20 bg-gradient-to-r from-blue-600 to-purple-600">
+    <section class="py-20 bg-gradient-to-r from-amber-600 to-orange-700">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-3 gap-8 text-center text-white">
           <div>

@@ -20,13 +20,13 @@ import { FooterComponent } from '../../components/footer/footer';
     StatsComponent,
     CtaComponent,
     FooterComponent,
-],
+  ],
   template: `
     <app-header></app-header>
     <app-hero></app-hero>
-    <app-mission></app-mission>
     <app-how-it-works></app-how-it-works>
     <app-features></app-features>
+    <app-mission></app-mission>
     <app-stats></app-stats>
     <app-cta></app-cta>
     <app-footer></app-footer>
